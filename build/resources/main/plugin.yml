@@ -1,4 +1,0 @@
-name: AvioraPluginPlaceholder
-version: '1.0-SNAPSHOT'
-main: org.aviora.avioraPluginPlaceholder.AvioraPluginPlaceholder
-api-version: '1.21'

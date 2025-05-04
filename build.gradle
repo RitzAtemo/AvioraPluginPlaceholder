@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'org.aviora'
-version = '1.0-SNAPSHOT'
+version = '1.0'
 
 repositories {
     mavenCentral()
@@ -20,14 +20,11 @@ repositories {
 
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.5-R0.1-SNAPSHOT")
-    implementation(files("../AvioraPluginCore/build/libs/AvioraPluginCore-1.0-SNAPSHOT.jar"))
+    implementation(files("../AvioraPluginCore/build/libs/AvioraPluginCore-1.0.jar"))
 }
 
 tasks {
     runServer {
-        // Configure the Minecraft version for our task.
-        // This is the only required configuration besides applying the plugin.
-        // Your plugin's jar (or shadowJar if present) will be used automatically.
         minecraftVersion("1.21")
     }
 }

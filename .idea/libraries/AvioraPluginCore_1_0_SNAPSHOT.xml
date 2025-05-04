@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="AvioraPluginCore-1.0-SNAPSHOT">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../AvioraPluginCore/build/libs/AvioraPluginCore-1.0-SNAPSHOT.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
